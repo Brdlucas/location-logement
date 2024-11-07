@@ -1,6 +1,12 @@
+@media screen and (max-width: 600px) {
 
-.img__container-text{
-    background-image: url("public/img/background.svg") ;
-    width: 200px;
-    height: 200px;
+    .hero__container-text{
+        top: 25%;
+        font-size: larger;
+    }
+    
+    .hero__container-img{
+        position: relative;
+        height: 150px;
+    }
 }

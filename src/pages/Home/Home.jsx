@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import backgroundImg from "/public/img/background.png";
 import "./responsive-Home.css";
 
 export default function Home() {
@@ -17,8 +18,9 @@ export default function Home() {
 
   return (
     <>
-      <div className="img__container-text">
-        <p>chez vous, partout ailleurs</p>
+      <div className="hero__container">
+        <img src={backgroundImg} className="hero__container-img" />
+        <p className="hero__container-text">Chez vous, partout ailleurs</p>
       </div>
       <div>
         {logements.slice(0, 6).map((logement) => (
