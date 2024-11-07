@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: red;
+    }
+    
+    .nav__container-right{
+        background-color: red;
+        display: flex;
+        width: 150px;
+        gap: 15px;
+        margin-left: auto;
+
+    }
+
+    .Link{
+        font-size: medium;
+    }
+
+    .logo{
+        width: 40%;
+    }
+}
+

@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 255, 64);
+    margin: auto;
+}
+
+.nav__container-right{
+    background-color: rgb(0, 255, 64);
+    display: flex;
+    width: 200px;
+    gap: 30px;
+    margin-left: auto;
+}
+
+.Link{
+    color: #FF6060;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo{
+    width: 200px;
+}
