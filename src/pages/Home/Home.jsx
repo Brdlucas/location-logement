@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import backgroundImg from "/public/img/background.svg";
+import backgroundImg from "/public/img/background-home.svg";
 import "./Home.css";
 import "./responsive-Home.css";
 
@@ -18,7 +18,7 @@ export default function Home() {
   };
 
   return (
-    <>
+    <section>
       <div className="hero__container">
         <img src={backgroundImg} className="hero__container-img" />
         <p className="hero__container-text">Chez vous, partout ailleurs</p>
@@ -39,6 +39,6 @@ export default function Home() {
           </Link>
         ))}
       </div>
-    </>
+    </section>
   );
 }
