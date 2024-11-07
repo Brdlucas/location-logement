@@ -1,0 +1,66 @@
+
+@media screen and (max-width: 1024px) {
+
+    .description__container{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .logement__container-img{
+        width: 100%;
+        height: 30vh;
+        object-fit: contain;
+        border-radius: 2rem;
+        margin: auto;
+    }
+
+    .logement__container-title{
+
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logement__container-h1{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        line-height: normal;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .container__h1-host{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .tags__container, .stars__container{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        gap: 8px;
+    }
+    .tags__container p{
+        margin: auto;
+    }
+    .description__container, .equipement__container{
+        text-align: center;
+    }
+
+    .tags__and__stars-container{
+        flex-direction: column;
+
+    }
+
+    .info__container{
+        flex-direction: column;
+    }
+
+    .description__container{
+        width: 90%;
+    }
+}
