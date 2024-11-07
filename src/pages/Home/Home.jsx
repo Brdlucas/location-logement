@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import backgroundImg from "/public/img/background.png";
+import backgroundImg from "/public/img/background.svg";
 import "./Home.css";
 import "./responsive-Home.css";
 
