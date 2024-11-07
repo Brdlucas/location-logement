@@ -7,17 +7,53 @@
     width: 100%;
     height: 30vh;
     object-fit: cover;
-    filter: brightness(50%);
     border-radius: 2rem;
+    filter: brightness(50%);
 }
 
 .hero__container-text{
-    position: absolute;
-    top : 25%;
     color: white;
-    display: flex;
-    justify-content: center;
+    top : 25%;
     width: 100%;
-    font-size: xx-large;
+    display: flex;
     font-weight:600;
+    position: absolute;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+
+.logements__container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    gap: 30px;
+    display: grid;
+    padding: 1rem;
+    background-color: #F6F6F6;
+    border-radius: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.logements__container-map{
+    position: relative;
+    border-radius: 2rem;
+}
+
+.container__map-img{
+    object-fit:cover;
+    max-width: 100%;
+    border-radius: 1rem;
+    transition: .5s linear;
+}
+
+.container__map-img:hover{
+    filter: brightness(50%);
+}
+
+.container__map-text{
+    position: absolute;
+    padding-left: 1rem;
+    bottom: 5px;
+    color: white;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 }

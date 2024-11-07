@@ -23,13 +23,20 @@ export default function Home() {
         <img src={backgroundImg} className="hero__container-img" />
         <p className="hero__container-text">Chez vous, partout ailleurs</p>
       </div>
-      <div>
+      <div className="logements__container">
         {logements.slice(0, 6).map((logement) => (
-          <div key={logement.id}>
-            <p>{logement.id}</p>
-            <p>{logement.title}</p>
-            <Link to={`/logement/${logement.id}`}>go to</Link>
-          </div>
+          <Link
+            to={`/logement/${logement.id}`}
+            key={logement.id}
+            className="logements__container-map"
+          >
+            <img
+              src={logement.cover}
+              alt={logement.title}
+              className="container__map-img"
+            />
+            <p className="container__map-text">{logement.title}</p>
+          </Link>
         ))}
       </div>
     </>

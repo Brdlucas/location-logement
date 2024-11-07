@@ -3,16 +3,13 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: red;
     }
     
     .nav__container-right{
-        background-color: red;
-        display: flex;
-        width: 150px;
         gap: 15px;
+        width: 150px;
+        display: flex;
         margin-left: auto;
-
     }
 
     .Link{
