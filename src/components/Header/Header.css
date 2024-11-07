@@ -20,6 +20,10 @@ nav{
     text-decoration: none;
 }
 
+.Link:focus{
+    text-decoration:underline;
+}
+
 .logo{
     width: 200px;
 }
